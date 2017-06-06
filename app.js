@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 app.use(express.static('public'));
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
-app.set('port', 3000);
+app.set('port', 16987);
 
 app.post('/edit', function(req, res, next) {
     console.log(req.body);

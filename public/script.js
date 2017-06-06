@@ -1,4 +1,4 @@
-var url = 'http://localhost:3000';
+var url = 'http://flip3.engr.oregonstate.edu:16987';
 var row = 1;
 
 function populateTable() {
